@@ -2,7 +2,7 @@
 
 linux 下使用微信web开发者工具.
 
-![wx_dev_tools v1.02.1906141](https://img.shields.io/badge/wx_dev_tools-1.02.1906141-green.svg)
+![wx_dev_tools v1.02.1910121](https://img.shields.io/badge/wx_dev_tools-1.02.1910121-green.svg)
 ![nw.js v0.24.4](https://img.shields.io/badge/nw.js-v0.24.4-blue.svg)
 
 ## Description
@@ -165,6 +165,14 @@ git pull origin
 
 ``` bash
 ./bin/update_package_nw.sh
+```
+
+#### 方案三: 同上 手动指定 -l \<微信开发工具下载地址\> -v \<版本号\>  (可指定预发布版或开发版)
+
+**注**: -l -v 选项**务必同时指定**, 并且版本号 形如1.02.2001191
+
+``` bash
+./bin/update_package_nw.sh -l <微信开发工具下载地址> -v <版本号>
 ```
 
 *Tips*
